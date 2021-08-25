@@ -1,0 +1,33 @@
+body {
+    background-color: #212529;
+    color: white;
+    font-family: sans-serif;
+    padding: 50px;
+}
+input {
+    width: 100%;
+    font-size: 1.2rem;
+    color: grey;
+    
+}
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,480px);
+    gap: 10px;
+    justify-content: center;
+    
+}
+.card {
+    
+    width: 480px;
+    min-height: 270px;
+    height: auto;
+    
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+.imagen {
+    border-radius: 15px;
+}
